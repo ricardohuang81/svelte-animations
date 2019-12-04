@@ -50,7 +50,7 @@
 <button on:click={() => showParagraph = !showParagraph}>TOGGLE</button>
 
 {#if showParagraph}
-	<p in:fade out:fly={{x: 300}}>Can You See This??</p>
+	<p in:fade out:fly={{x: 300}}>Can you see this? Add some purple squares!</p>
 {/if}
 <input type="text" bind:this={boxInput}>
 <button on:click={addBox}>ADD</button>
