@@ -47,13 +47,13 @@
 <!-- <progress value={$progress} /> -->
 <!-- <Spring /> -->
 
-<button on:click={() => showParagraph = !showParagraph}>Toggle</button>
+<button on:click={() => showParagraph = !showParagraph}>TOGGLE</button>
 
 {#if showParagraph}
-	<p in:fade out:fly={{x: 300}}>Can you see?</p>
+	<p in:fade out:fly={{x: 300}}>Can You See This??</p>
 {/if}
 <input type="text" bind:this={boxInput}>
-<button on:click={addBox}>Add</button>
+<button on:click={addBox}>ADD</button>
 
 {#if showParagraph}
 	{#each boxes as box (box)}
